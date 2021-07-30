@@ -1,3 +1,3 @@
-# Google Homepage
+# Google Homepage Assignment
 
-This is the first project in The Odin Project.
+I used flexbox layout in this project. Google icons is really easy to use.
