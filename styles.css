@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+img, svg {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a {
+  color: black;
+  font-size: 13px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.apps {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.apps:hover {
+  background-color: rgb(240, 240, 240);
+  text-decoration: none;
+}
+
+.material-icons {
+  color: #5F6367;
+}
+
+.user-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-wrapper:hover {
+  text-decoration: none;
+}
+
+.user {
+  font-size: 36px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.2rem;
+  padding: .8rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 10rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.input-container {
+  width: fit-content;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 10px;
+  padding: .5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 25px;
+}
+
+input[type= text] {
+  border: transparent;
+  outline: transparent;
+  width: 490px;
+  font-size: 16px;
+}
+
+.btns {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #F8F9FA;
+  border: transparent;
+  padding: 10px 16px;
+  border-radius: 3px;
+  font-size: 14px;
+  color: #3C4043;
+}
+
+p {
+  font-size: 13px;
+  color: #3C4043;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #F2F2F2;
+}
+
+.top {
+  border-bottom: 1px solid #D9DCE0;
+  padding: 15px 30px;
+  font-size: 15px;
+  color: #6F6F6F;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: #6F6F6F;
+}
+
+.bottom a {
+  font-size: 14px;
+  padding: 15px;
+  color: #6F6F6F;
+}
