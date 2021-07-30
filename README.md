@@ -1,3 +1,5 @@
-# Google Homepage
+# Project: Google Homepage 
 
-This is the first project in The Odin Project.
+*__This is a assignment in The Odin Project.__*
+
+I used external CSS, flexbox layout and Goggle icons in the project.
